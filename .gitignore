@@ -1,0 +1,34 @@
+# 1. Виртуальные окружения (главное)
+venv/
+.venv/
+env/
+.env/
+
+# 2. Файлы с паролями и API-ключами (например, DEEPSEEK_API_KEY)
+.env
+.env.local
+*.key
+*.pem
+
+# 3. Кэш и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 4. Настройки редакторов кода и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 5. Системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# 6. Временные файлы тестов, логов и баз данных (если используете локальный SQLite/Chroma)
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+*.sqlite3
